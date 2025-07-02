@@ -6,31 +6,31 @@ import { useNavigate } from 'react-router-dom';
 const services = [
   {
     id: 'jac-delhi',
-    title: 'JAC Delhi Counseling',
-    description: 'Complete guidance for JAC Delhi counseling process with personalized preference lists and strategic college selection.',
+    title: 'JAC Delhi counselling',
+    description: 'Complete guidance for JAC Delhi counselling process with personalized preference lists and strategic college selection.',
     icon: MapPin,
     gradient: 'from-orange-500 to-red-500',
     route: '/jac-delhi'
   },
   {
     id: 'ipu',
-    title: 'IPU Counseling',
-    description: 'Expert IPU counseling support with detailed college analysis and preference order optimization.',
+    title: 'IPU Counselling',
+    description: 'Expert IPU counselling support with detailed college analysis and preference order optimization.',
     icon: GraduationCap,
     gradient: 'from-blue-500 to-purple-500',
     route: '/ipu'
   },
   {
     id: 'uptu-aktu',
-    title: 'UPTU/AKTU Counseling',
-    description: 'Comprehensive UPTU/AKTU counseling with rank-based college recommendations and branch selection.',
+    title: 'UPTU/AKTU Counselling',
+    description: 'Comprehensive UPTU/AKTU counselling with rank-based college recommendations and branch selection.',
     icon: School,
     gradient: 'from-green-500 to-teal-500',
     route: '/uptu-aktu'
   }
 ];
 
-const CounselingServices = () => {
+const CounsellingServices = () => {
   const navigate = useNavigate();
 
   return (
@@ -39,10 +39,10 @@ const CounselingServices = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Counseling Services
+            Counselling Services
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Specialized guidance for each counseling process with personalized support and proven strategies
+            Specialized guidance for each counselling process with personalized support and proven strategies
           </p>
         </div>
 
@@ -104,4 +104,4 @@ const CounselingServices = () => {
   );
 };
 
-export default CounselingServices;
+export default CounsellingServices;

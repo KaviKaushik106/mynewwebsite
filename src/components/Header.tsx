@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { Phone, MessageCircle } from 'lucide-react';
+import React from "react";
+import { Phone, MessageCircle } from "lucide-react";
 
 const Header = () => {
   return (
@@ -21,7 +20,7 @@ const Header = () => {
           {/* Contact Actions */}
           <div className="flex items-center space-x-4">
             <a
-              href="https://wa.me/+919999999999"
+              href="https://wa.me/+919675316488"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors duration-200"
@@ -30,7 +29,7 @@ const Header = () => {
               <span className="hidden sm:inline">WhatsApp</span>
             </a>
             <a
-              href="tel:+919999999999"
+              href="tel:+919675316488"
               className="flex items-center space-x-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-lg transition-colors duration-200"
             >
               <Phone size={18} />

@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { ArrowRight, Star, Users, Award } from 'lucide-react';
+import React from "react";
+import { ArrowRight, Star, Users, Award } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -28,13 +27,19 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
-            Expert guidance for JEE, IPU & AKTU college admissions. Get personalized preference lists, 
-            1:1 mentorship, and round-the-clock support during counseling season.
+            Expert guidance for JEE, IPU & AKTU college admissions. Get
+            personalized preference lists, 1:1 mentorship, and round-the-clock
+            support during counseling season.
           </p>
 
           {/* CTA Button */}
-          <button 
-            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+          <button
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLScSA85VI3ATtZZB0PtHPLg4Zxm-9UPXaDGc6qTj46DOvOavPw/viewform?usp=header",
+                "_blank"
+              )
+            }
             className="inline-flex items-center bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             Get Started
@@ -45,11 +50,15 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 mt-16 pt-8 border-t border-gray-200">
             <div className="flex items-center space-x-2">
               <Users className="w-6 h-6 text-orange-500" />
-              <span className="text-gray-700 font-medium">1000+ Students Guided</span>
+              <span className="text-gray-700 font-medium">
+                1000+ Students Guided
+              </span>
             </div>
             <div className="flex items-center space-x-2">
               <Star className="w-6 h-6 text-orange-500" />
-              <span className="text-gray-700 font-medium">DTU 3rd Year Student</span>
+              <span className="text-gray-700 font-medium">
+                DTU 3rd Year Student
+              </span>
             </div>
             <div className="flex items-center space-x-2">
               <Award className="w-6 h-6 text-orange-500" />
